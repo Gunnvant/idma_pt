@@ -1,6 +1,6 @@
 # IDMA Part time Content Repository
 
-This repo contains the content for IDMA full time program. The repo will remain a work in progress.
+This repo contains the content for IDMA part time program. The repo will remain a work in progress.
 
 ## Python Essentials (Agenda, Pre-requisites and readings) 
 
