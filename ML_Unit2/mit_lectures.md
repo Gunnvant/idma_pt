@@ -22,7 +22,9 @@
 - Gradient of MSE for a single example: $-(y^t-\theta_{1}.x^t).x^t$
 
 **Problem Ideas**
-- Recall the gradient descent on a simple function such as $f(\theta) = 2.\theta - \theta^2$
+- Recall the gradient descent on a simple function such as ```math 
+$f(\theta) = 2.\theta - \theta^2$
+```
 - Show one iteration by hand
 - Create dummy data and run 2 iterations by hand, focus on random selection of a single data point $(x^t,y^t)$
 - Attempt to give intuition of a random batch update
