@@ -22,9 +22,8 @@
 - Gradient of MSE for a single example: $-(y^t-\theta_{1}.x^t).x^t$
 
 **Problem Ideas**
-- Recall the gradient descent on a simple function such as ```math 
+- Recall the gradient descent on a simple function such as 
 $f(\theta) = 2.\theta - \theta^2$
-```
 - Show one iteration by hand
 - Create dummy data and run 2 iterations by hand, focus on random selection of a single data point $(x^t,y^t)$
 - Attempt to give intuition of a random batch update
@@ -48,3 +47,42 @@ $f(\theta) = 2.\theta - \theta^2$
 - Correlate the same idea with a sales example over years.
 - Working example on creating a closed form solution with regularization as well as a gradient based solution.
 
+# Lecture 6: Non Linear Classification
+
+## Higher Order Feature Vectors
+
+**Content Pointers**
+- Show an excel sheet, showing the idea of feature vectors when the problem is not linearly separable
+- Look at the idea of locus of common geometrical figures to help people solve in video quiz (equation of ellipse, parabola, circle etc)
+
+## Introduction to Non-linear Classification
+
+**Content Pointers**
+- Show leave one-out cv (build a gif + try code)
+- Review of counting
+
+## Motivation for Kernels: Computational Efficiency
+
+**Content Pointers**
+- Show how $(1+x.x)^p$ with different values of $p$ evaluates to inner-product of two feature vectors $\phi$ and $\phi'$, without having to compute the inner-product.
+- [Ref](https://www.youtube.com/watch?v=OKFMZQyDROI)
+
+## The Kernel Perceptron Algorithm
+
+**Content Pointers**
+- Make a deck with details on how 
+    - The Perceptron problem can be expressed as a series of dot products
+    - Show the update rule. (Include a numerical example)
+    - [Ref](https://www.youtube.com/watch?v=6-ntMIaJpm0) 
+
+## Kernel Composition Rules
+
+**Content Pointers**
+- Make excersises on these rules
+- Show how common kernels look in higher dimensional space and original space
+
+## Radial Basis Function
+
+**Content Pointers**
+- Numerical Example
+- Refer other resources to highlight the idea of infinite dimensions
