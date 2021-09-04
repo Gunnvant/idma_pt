@@ -86,3 +86,4 @@ $f(\theta) = 2.\theta - \theta^2$
 **Content Pointers**
 - Numerical Example
 - Refer other resources to highlight the idea of infinite dimensions
+- DT and RF context setting
