@@ -40,3 +40,8 @@ This repo contains the content for IDMA part time program. The repo will remain 
     - Pandas 101: [Matt Harisson, Pandas 1.x Cookbook, Chapter2, Chapter3, Chapter4, Chapter5, Chapter6, Chapter7, Chapter9](https://learning.oreilly.com/library/view/pandas-1x-cookbook/9781839213106/) You can complete these readings over a span of 2-3 weeks. As the course progresses you will find yourself using this book as a quick reference.
 
     - **Learning Objectives:** Be able to decide how to reduce memory footprint by changing datatypes of columns. Be aware of different data import/export mehods in pandas. Understand the need for index alignment and be able change indices to align them properly.
+
+    ## ML Unit 2:
+    - Lecture5: Regression
+    - Lecture6: Non linear classification
+    - Lecture7: Collaborative Filtering

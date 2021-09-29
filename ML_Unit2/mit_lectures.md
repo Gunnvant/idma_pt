@@ -87,3 +87,65 @@ $f(\theta) = 2.\theta - \theta^2$
 - Numerical Example
 - Refer other resources to highlight the idea of infinite dimensions
 - DT and RF context setting
+
+# Lecture 7: Recommender Systems
+
+## Introduction
+The data one will need will be a user-rating matrix, $\{a_{i,j}\}$ each element of this matrix corresponding to a user i and movie j.
+
+$$
+\begin{bmatrix}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}
+\end{bmatrix}
+$$
+
+- Can't do regression because the data on ratings is relatively less and difficult to create features
+- Instead find the users similar to the one in question and then estimate his/her rating from them
+
+
+## K-Nearest Neighbor Method
+
+**Content Pointers**
+- Excel/python examples of the knn forms
+
+## Collaborative Filtering: the Naive Approach
+- Formulating the problem as regression problem doesn't work as the estimated ratings are set as $\frac{Y_{a,i}}{1+\lambda}$ when people have actually rated the movies else they are set to 0.
+- We are also implicitly assuming independence, we are not modelling the hidden structures of how people like things.
+
+**Content Pointers**
+- Show the derivative computation.
+
+## Collaborative Filtering with Matrix Factorization
+
+**Content Pointers**
+- Intuition about low rank (X is low rank, ratings are interdependent/similar show how matrix product can be seen as vector dot product)
+- Emphasize the point of o(n,m) vs o(n+m)
+- Show what rank2 could mean, emphasize the latent dimensions
+
+## Alternating Minimization
+
+**Content Pointers**
+- Trick questions on computing $u$ and $v$
+- Attempt to show how initializations impact $u$ and $v$ estimates and the optimal value of loss function is dependent on initializations.
+
+## Homework
+
+1. Collaborative Filtering, Kernels, Linear Regression
+
+**Content Pointers**
+- In lectures show a numerical example of als.
+
+2. Feature Vectors Transformation
+- Revisit Lecture 6 with these questions in mind
+
+3. Kernels
+- Revisit kernel composition rules
+
+4. Kernel II
+- Revisit decision boundaries 
+
+5. Linear Regression and Regularization
+- Discuss the regularized regression objective function and its derivatives in the lectures
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUJ4YL39is8qHKE0hhtLDvq3j50pPu4Hlq8zDlC7rNXGEEH97o5YBOkWGUZ8PLTBg_tn0z8onUIaOt/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
