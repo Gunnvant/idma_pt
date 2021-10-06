@@ -148,4 +148,3 @@ $$
 5. Linear Regression and Regularization
 - Discuss the regularized regression objective function and its derivatives in the lectures
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUJ4YL39is8qHKE0hhtLDvq3j50pPu4Hlq8zDlC7rNXGEEH97o5YBOkWGUZ8PLTBg_tn0z8onUIaOt/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
