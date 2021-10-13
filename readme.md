@@ -45,3 +45,7 @@ This repo contains the content for IDMA part time program. The repo will remain 
     - Lecture5: Regression
     - Lecture6: Non linear classification
     - Lecture7: Collaborative Filtering
+
+    ## ML Unit 3:
+    - Lecture8: Introduction to Neural Networks
+    - Lecture9: Feed forward neural networks, backpropagation and stochastic gradient descent
