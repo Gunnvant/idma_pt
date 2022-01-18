@@ -49,3 +49,5 @@ This repo contains the content for IDMA part time program. The repo will remain 
     ## ML Unit 3:
     - Lecture8: Introduction to Neural Networks
     - Lecture9: Feed forward neural networks, backpropagation and stochastic gradient descent
+
+ 
